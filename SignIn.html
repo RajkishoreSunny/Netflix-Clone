@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignInStyle.css">
+    <script src="jscript.js">
+
+    </script>
+</head>
+<body>
+    <div class = "loginpage">
+        <h1>Login To Netflix</h1>
+        <form method="post">
+            <div class="textfield">
+                <input type="text" id="mail" name="" required placeholder="Enter Email">
+                <span></span>
+            </div>
+            <div class="textfield">
+                <input type="password" id="pass" name="" required placeholder="Enter Password">
+                <span></span>
+            </div>
+            <div class="Pass">
+                <a href="#" onclick="forgotpass()">Forgot Password?</a>
+            </div>
+            <input type="submit" value="Login" onclick="login()">
+            <div class="notmember">
+                Not a member?
+                <a href = '#' onclick="signup()">Sign up</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
